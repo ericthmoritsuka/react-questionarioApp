@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-questionarioApp/static/css/main.e6c13ad2.css",
+    "main.js": "/react-questionarioApp/static/js/main.5e05a6eb.js",
+    "static/js/787.248d33b5.chunk.js": "/react-questionarioApp/static/js/787.248d33b5.chunk.js",
+    "index.html": "/react-questionarioApp/index.html",
+    "main.e6c13ad2.css.map": "/react-questionarioApp/static/css/main.e6c13ad2.css.map",
+    "main.5e05a6eb.js.map": "/react-questionarioApp/static/js/main.5e05a6eb.js.map",
+    "787.248d33b5.chunk.js.map": "/react-questionarioApp/static/js/787.248d33b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.5e05a6eb.js"
+  ]
+}
