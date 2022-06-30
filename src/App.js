@@ -58,18 +58,10 @@ function App() {
 
   const checarRespostas = () => {
     const corretas = perguntas.filter(
-      ({ id, resposta }) => respostas[id] === resposta
+      ({ id, resposta }) => respostas[id] === resposta,
     );
-    if (corretas.length === perguntas.length) {
-      setResultado ('Você acertou toda as perguntas, parabéns!')
-    } else if (corretas.length === 0) {
-      setResultado('Tente novamente')
-    }
-    setResultado(
-      `Você acertou ${corretas.length} de ${perguntas.length} perguntas.`
-    );
-    console.log(corretas)
-  };
+    setResultado(`Você acertou: ${corretas.length} de ${perguntas.length} perguntas`);
+  }
 
   const nextHandler = () => {
     if (slide < perguntas.length - 1) {
@@ -97,7 +89,7 @@ function App() {
         />
       ))}
 
-      {resultado && (resultado === 4) ? (
+      {resultado ? (
         <div>
           <p>{resultado}</p>
           <button onClick={restartHandler}>Refazer o teste</button>
